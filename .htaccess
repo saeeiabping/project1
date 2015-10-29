@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /project1/
+RewriteCond $1 !^(index\.php|css|js|pic|font)
+RewriteRule ^(.*)$ index.php [L]
